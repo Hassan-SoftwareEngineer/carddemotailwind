@@ -5,7 +5,7 @@ import UserCard from './components/UserCard';
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen  bg-dark gap-5">
+    <div className="flex justify-center items-center h-screen  bg-dark gap-5 flex-wrap">
       <UserCard
         avatarSrc="https://img.freepik.com/free-icon/user_318-159711.jpg"
         userName="Johnny's cash"
